@@ -1,0 +1,23 @@
+body{
+    background:url(koran.jpg)
+}
+img{
+    shape-margin: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.foto{
+width: 200px;
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+}
+.head{
+    background-color: antiquewhite;
+    width: 50%;
+   margin-right: 50%;
+   font-family: Arial, Helvetica, sans-serif;
+}

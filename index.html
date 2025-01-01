@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎶💖</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="head">
+        <h1>memory of 2024</h1>
+        <p><b>kala itu masih sering seringnya sleepcall,kala itu masih tergilanya sama lagu forever young</b> </p>
+        <p><b>wkwkwk😭😭😭 aku gabut lagi nih kyknya makanya aku bikin lagi ,just funn yaa</b></p>
+    </div>
+
+
+    <!-- Menampilkan Foto -->
+     <div class="foto">
+        <img src="sarah.jpg" alt="foto kamu">
+     </div>
+
+    <br><br>
+
+    <!-- Menyertakan Musik dengan Tombol Play -->
+    <audio id="forever yooung" controls>
+        <source src="Alphaville - Forever Young ( Video Lyrics ).mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung pemutar audio.
+    </audio>
+
+    <br><br>
+
+    <!-- Tombol Play Manual -->
+    <button onclick="playMusik()">Play Musik</button>
+
+    <script>
+        function playMusik() {
+            const audio = document.getElementById('forever young');
+            audio.play();
+        }
+    </script>
+</body>
+</html>
